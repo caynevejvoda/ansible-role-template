@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include caynevejvoda.template"
+      include_role:
+        name: "caynevejvoda.template"
